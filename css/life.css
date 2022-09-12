@@ -1,0 +1,48 @@
+.life ul li a {
+    padding-top: 250px;
+    text-align: center;
+    float: left;
+    width: 267px;
+    height: 300px;
+    font-size: 50px;
+    line-height: 70px;
+    transition-property: all;
+    transition-duration: .5s;
+    text-decoration: none;
+}
+.life ul li a:hover{
+    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, .5);
+}
+
+/* bilibili */
+#bilibili a {
+    width: 266px;
+    color: rgba(249, 162, 168, .8);
+}
+
+#bilibili a:hover {
+    background-color: rgba(249, 162, 168, .8);
+    color: rgba(255, 255, 255, .8);
+}
+
+
+/* mail */
+#mail a {
+    color: rgba(40, 169, 224, .8);
+}
+
+#mail a:hover {
+    background-color: rgba(40, 169, 224, .8);
+    color: rgba(255, 255, 255, .8);
+}
+
+/* github */
+#github a {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    color: rgba(255,255,255, .8);
+}
+#github a:hover {
+    background-color: rgba(53, 53, 53, .8);
+    color: rgba(255, 255, 255, .8);
+}

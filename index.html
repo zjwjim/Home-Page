@@ -1,0 +1,230 @@
+<!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2022.09.12
+version: 220912测试版
+测试版代码，后期仍需优化
+
+Copyright 2022 晚秋 | Made with love by 晚秋
+
+你tm看什么，刚写好没优化的代码也敢抄？
+稳定版代码已开源
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" user-scalable="yes">
+    <title>晚秋的个人网站</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/life.css">
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="css/friend.css">
+    <link rel="stylesheet" href="css/donation.css">
+    <link rel="stylesheet" href="css/journal.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.ico">
+    <script type="text/javascript" src="https://api.wanqiu.tk/yiyan/?code=js"></script>
+
+    <!-- <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?e88755b29acb279b1c6fd34cbd7861d5";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>         -->
+</head>
+
+<body id="background">
+    <div class="main">
+        <div class="left">
+            <!-- logo部分 -->
+            <div class="logo">
+                <div class="logo1"></div>
+                <div class="logo2">晚秋</div>
+            </div>
+
+            <!-- 导航栏部分 -->
+            <div class="nav">
+                <ul>
+                    <li>
+                        <button onclick="nav('home')" class="nav1" id="button-home" style="background-color: rgba(0, 0, 0, 0.5);">主页</button>
+                        <!-- <input type="button" value="主页" onclick="nav()"> -->
+                    </li>
+                    <li>
+                        <button onclick="nav('about')" class="nav1" id="button-about">关于</button>
+                    </li>
+                    <li>
+                        <button onclick="blog()">博客</button>
+                    </li>
+                    <li>
+                        <button onclick="nav('life')" class="nav1" id="button-life">生活</button>
+                    </li>
+                    <li>
+                        <button onclick="nav('friend')" class="nav1" id="button-friend">朋友</button>
+                    </li>
+                    <li>
+                        <button onclick="nav('journal')" class="nav1" id="button-journal">日志</button>
+                    </li>
+                    <li id="last">
+                        <button onclick="nav('donation')" class="nav1" id="button-donation">捐赠</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 右边部分 -->
+
+        <!-- 主页 -->
+        <div class="right home" style="display: block;" id="home">
+            <h1>Welcome!</h1>
+            <h1>欢迎来到晚秋的个人网站</h1>
+            <h4 id="hitokoto">「<script>hitokoto()</script>」</h4>
+        </div>
+
+        <!-- 关于 -->
+        <div class="right" style="display: none;" id="about">
+            <h1 style="margin-top: 50px; text-align: center; color:rgba(220, 220, 220, .8);">关于我</h1>
+            <div class="fenge"></div>
+            <div class="about">
+                <h2>Hello!</h2>
+            <p>
+                　　你好，这里是晚秋，普通的天秤座男一枚~ <br>
+                坐标广东广州，对信息技术以及ACG文化感兴趣。<br>
+                一个编程菜鸡，请多指教！<br>
+                How lucky to meet you! <br>
+            </p>
+            </div>   
+        </div>
+
+        <!-- 生活 -->
+        <div class="right life" style="display: none;" id="life">
+            <ul>
+                <!-- bilibili -->
+                <li id="bilibili">
+                    <a href="https://space.bilibili.com/555591493" target="_blank">
+                        <div class="iconfont icon-bilibili-line"></div>
+                        <div class="iconfont icon-bilibili"></div>
+                    </a>
+                </li>
+                <!-- mail -->
+                <li id="mail">
+                    <a href="mailto:zjwjim2007@163.com" target="_blank">
+                        <div class="iconfont icon-mail"></div>
+                        mail
+                    </a>
+                </li>
+                <!-- github -->
+                <li id="github">
+                    <a href="https://github.com/zjwjim" target="_blank">
+                        <div class="iconfont icon-github-fill"></div>
+                        <div class="iconfont icon-GitHub"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 朋友 -->
+        <div class="right" style="display: none;" id="friend">
+            <h1 style="margin-top: 50px; text-align: center; color: rgba(220, 220, 220, .8);">晚秋的朋友们</h1>
+            <div class="fenge"></div>
+            <div class="friend">
+                <ul>
+                    <li>
+                        <a href="https://www.chenshifanmeng.cn" target="_blank">
+                            <div class="friend-logo" id="chenshifanmeng-logo"></div>
+                            <div class="friend-name">
+                                <h6 class="name">尘世樊梦</h6>
+                                <p class="website">chenshifanmeng.cn</p>
+                            </div>
+                            <div class="jiantou">></div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://b23.tv/R2v7FwW" target="_blank">
+                            <div class="friend-logo" id="laobaicaideyipi-logo"></div>
+                            <div class="friend-name">
+                                <h6 class="name">老白菜的一批</h6>
+                                <p class="website">bilibili</p>
+                            </div>
+                            <div class="jiantou">></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 日志 -->
+        <div class="right" style="display: none;" id="journal">
+            <h1 style="margin-top: 50px; text-align: center; color: rgba(220, 220, 220, .8);">小站大事记</h1>
+            <div class="fenge"></div>
+            <div class="journal">
+                <ul>
+                    <li>2022年6月19日，新增备用域名：wanqiuya.eu.org</li>
+                    <li>2022年4月18日，网站原创界面上线</li>
+                    <li>2022年4月7日，升级为HTTPS安全协议</li>
+                    <li>2022年4月5日，更改域名为：www.wanqiu.tk</li>
+                    <li>2022年2月5日，建立博客</li>
+                    <li>2022年2月4日，本站建立</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 捐赠 -->
+        <div class="right" style="display: none;" id="donation">
+            <h1 style="margin-top: 50px; text-align: center; color: rgba(220, 220, 220, .8);">拯救吃土的晚秋</h1>
+            <div class="fenge"></div>
+            <div class="donation">
+                <img src="img/wx.jpg">
+                <img src="img/zfb.jpg">
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        ©2022 晚秋 | Made with love by 晚秋
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

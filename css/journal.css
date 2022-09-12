@@ -1,0 +1,19 @@
+/* .right h1 {
+    margin-top: 50px;
+    text-align: center;
+    color:rgba(220, 220, 220, .8);
+} */
+
+.journal {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.journal ul li{
+    line-height: 1.8;
+    font-size: 20px;
+    color:rgba(220, 220, 220, .8);
+    list-style: disc;
+}

@@ -1,0 +1,11 @@
+.life{
+    float: right;
+    height: 100%;
+    width: 70%;
+}
+.life li {
+    display: block;
+    float: left;
+    height: 100%;
+    width: 33.3%;
+}

@@ -1,0 +1,165 @@
+
+#yincang{
+    display: none;
+}
+
+/* 清除内外边距 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+/* button {
+    border: none;
+    outline: none;
+    font-weight: 500;
+    height: 50px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    color: rgba(220, 220, 220, .8);
+    background-color: rgba(0, 0, 0, .2);
+    transition-property: all;
+    transition-duration: .5s;
+    text-decoration: none;
+} */
+
+/* 背景图 */
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -2;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-color: #818181;
+    background-image: url(../img/background.jpg);
+}
+
+#background:after {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    z-index: -1;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 550px;
+    width: 1200px;
+    margin-top: -275px;
+    margin-left: -600px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 8px;
+}
+
+.left {
+    float: left;
+    height: 100%;
+    width: 400px;
+    background-color: rgba(150, 150, 150, .4);
+    border-radius: 8px 0 0 8px;
+}
+
+.right {
+    float: left;
+    width: 800px;
+}
+
+/* logo部分 */
+.logo {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0);
+    border-top-left-radius: 8px;
+}
+
+.logo1 {
+    float: left;
+    background-image: url(../img/logo.jpg);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 55%);
+    margin: 25px 60px 25px 20px;
+}
+
+.logo2 {
+    float: left;
+    line-height: 180px;
+    font-size: 40px;
+    font-weight: 500;
+    color: rgba(220, 220, 220, .8);
+}
+
+/* 导航栏部分 */
+.nav ul li button {
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 90%;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    /* display: block; */
+    text-align: center;
+    line-height: 50px;
+    color: rgba(220, 220, 220, .8);
+    transition-property: all;
+    transition-duration: .5s;
+    text-decoration: none;
+}
+
+
+.nav ul li button:hover {
+    background-color: rgba(0, 0, 0, .5);
+    color: rgba(220, 220, 220);
+    box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3);
+}
+
+.nav ul li button:active {
+    box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, .3) inset;
+}
+
+#last input{
+    border-bottom-left-radius: 8px;
+}
+
+.bottom {
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    color: rgba(220, 220, 220, .6);
+}
+
+#current {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.fenge{
+    margin: 20px auto;
+    height: 2px;
+    width: 600px;
+    background-color: rgba(180, 180, 180, .6);
+    border-bottom-left-radius: 2px;
+}
