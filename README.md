@@ -6,8 +6,8 @@
 **示例地址：[https://www.wanqiu.tk](https://www.wanqiu.tk)**
 
 **本项目使用了：**
-* [图片api](https://blog.wanqiu.tk/2022/05/12/yi-yan-api/)
-* [一言api](https://blog.wanqiu.tk/2022/10/03/tu-pian-api/) <br>
+* [图片API](https://blog.wanqiu.tk/2022/10/03/tu-pian-api/)
+* [一言API](https://blog.wanqiu.tk/2022/05/12/yi-yan-api/) <br>
 [https://github.com/zjwjim/api](https://github.com/zjwjim/api)
 
 随便改，使用请标明出处 <br>
