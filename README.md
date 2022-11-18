@@ -3,11 +3,11 @@
 <br>
 
 
-**示例地址：[https://www.wanqiu.tk](https://www.wanqiu.tk)**
+**示例地址：[https://www.wanqiu.ml](https://www.wanqiu.ml)**
 
 **本项目使用了：**
-* [图片API](https://blog.wanqiu.tk/2022/10/03/tu-pian-api/)
-* [一言API](https://blog.wanqiu.tk/2022/05/12/yi-yan-api/) <br>
+* [图片API](https://www.wanqiu.tk/2022/10/03/tu-pian-api/)
+* [一言API](https://www.wanqiu.tk/2022/05/12/yi-yan-api/) <br>
 [https://github.com/zjwjim/api](https://github.com/zjwjim/api)
 
 随便改，使用请标明出处 <br>
