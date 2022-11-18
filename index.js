@@ -11,5 +11,5 @@ function nav(id) {
     // document.getElementById("button-"+id).className="nav1 current"
 }
 function blog() {
-    window.open('https://blog.wanqiu.tk')
+    window.open('https://www.wanqiu.tk')
 }
