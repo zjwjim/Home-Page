@@ -143,6 +143,7 @@ li {
     border-bottom-left-radius: 8px;
 }
 
+/* 底部版权声明 */
 .bottom {
     font-size: 15px;
     text-align: center;
@@ -152,9 +153,17 @@ li {
     bottom: 0;
     color: rgba(220, 220, 220, .6);
 }
+.bottom a {
+    font-weight: 600;
+    text-decoration: none;
+    color: rgba(220, 220, 220, .6);
+}
 
-#current {
-    background-color: rgba(0, 0, 0, .5);
+.bottom a:hover{
+    color: rgba(220, 220, 220, .8);
+    transition-property: all;
+    transition-duration: .5s;
+    text-decoration: none;
 }
 
 .fenge{
