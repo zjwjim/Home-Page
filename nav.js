@@ -1,3 +1,4 @@
+// 页面切换
 function nav(id) {
     var classname1 = document.getElementsByClassName("right");
     var classname2 = document.getElementsByClassName("nav1");
