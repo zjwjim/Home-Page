@@ -1,4 +1,16 @@
-
+/* 置灰 */
+/*
+html{
+    background:#ffffff;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); 
+    filter:gray;
+}
+*/
 #yincang{
     display: none;
 }
@@ -31,7 +43,7 @@ li {
 } */
 
 /* 背景图 */
-#background {
+body {
     position: fixed;
     top: 0;
     left: 0;
@@ -46,7 +58,7 @@ li {
     background-image: url(https://api.wanqiu.tk/picture/?sort=acg&screen=auto);
 }
 
-#background:after {
+body:after {
     top: 0;
     left: 0;
     right: 0;
