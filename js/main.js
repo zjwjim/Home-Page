@@ -25,5 +25,5 @@ console.log(String.raw`
                       /_/           
                             
 `)
-console.log('%c Made with love by %c 晚秋 | wanqiu.tk ','background:#35495e ; padding: 5px; border-radius: 3px 0 0 3px;  color: #fff','background:#41b883 ; padding: 5px; border-radius: 0 3px 3px 0;  color: #fff');
-console.log('%c Home-Page  %c https://github.com/zjwjim/Home-Page ','color: #fadfa3; background: #030307; padding: 5px; border-radius: 3px 0 0 3px;', 'background: #fadfa3; padding: 5px; border-radius: 0 3px 3px 0;');
+console.log("%c Made with love by %c 晚秋 | wanqiu.tk ","background:#35495e ; padding: 5px; border-radius: 3px 0 0 3px;  color: #fff","background:#41b883 ; padding: 5px; border-radius: 0 3px 3px 0;  color: #fff");
+console.log("\n%c Home-Page  %c https://github.com/zjwjim/Home-Page ","color: #fadfa3; background: #030307; padding: 5px; border-radius: 3px 0 0 3px;", "background: #fadfa3; padding: 5px; border-radius: 0 3px 3px 0;");
