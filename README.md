@@ -10,5 +10,5 @@
 * [一言API](https://www.wanqiu.tk/2022/05/12/yi-yan-api/) <br>
 [https://github.com/zjwjim/api](https://github.com/zjwjim/api)
 
-随便改，使用请标明出处 <br>
+如果你喜欢，可以fork到你的仓库里改改自己用 <br>
 前端小白，写的很烂，没有写响应式，不喜勿喷
